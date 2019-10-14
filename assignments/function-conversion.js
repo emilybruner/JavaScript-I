@@ -23,7 +23,7 @@ anotherFunction = (param) => {
 // };
 // add(1,2);
 
-add = (param1 + param2) => {
+add = (param1, param2) => {
     return param1 + param2;
 }
 
@@ -38,7 +38,7 @@ subtract = (param1, param2) => {
     return param1 - param2;
 }
 
-console.log(subtract1, 2)
+console.log(subtract(1, 2))
 
 
 // Stretch
@@ -48,3 +48,11 @@ console.log(subtract1, 2)
 //   return num * 3;
 // });
 // console.log(triple);
+
+exampleArray = [1, 2, 3, 4];
+
+const triple = exampleArray.map = (num) => {
+    return num * 3;
+}
+
+console.log(triple);
